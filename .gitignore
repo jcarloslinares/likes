@@ -1,0 +1,21 @@
+node_modules/*
+# ignore emacs files
+*~
+.#*
+TAGS
+
+# log files
+logs/*
+
+# config files (only keep default.yaml)
+config/*
+!config/default.yaml
+
+_tmp/*
+!_tmp/.gitkeep
+
+# npm
+npm-debug.log
+
+# ESlint
+.eslintrc.json
